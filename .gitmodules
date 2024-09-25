@@ -4,3 +4,6 @@
 [submodule "mesa-demos"]
 	path = mesa-demos
 	url = https://gitlab.freedesktop.org/mesa/demos
+[submodule "byte-unixbench"]
+	path = byte-unixbench
+	url = https://github.com/kdlucas/byte-unixbench
