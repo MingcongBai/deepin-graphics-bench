@@ -1,0 +1,3 @@
+[submodule "glmark2"]
+	path = glmark2
+	url = https://github.com/glmark2/glmark2
