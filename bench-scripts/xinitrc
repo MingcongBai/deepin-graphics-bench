@@ -1,0 +1,2 @@
+openbox &
+xterm -e /bin/bash -l -c "${_PREFIX}"/bench-scripts/start.bash
