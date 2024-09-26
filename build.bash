@@ -74,7 +74,7 @@ ninja
 ninja install
 
 echo '正在安装 UnixBench ...'
-cp -av "$_SRCDIR"/unixbench \
+cp -av "$_SRCDIR"/byte-unixbench \
 	"$_PREFIX"/
 
 echo '正在安装测试脚本 ...'
