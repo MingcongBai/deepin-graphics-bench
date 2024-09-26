@@ -1,8 +1,7 @@
-echo '正在运行 glmark2 测试（60 秒）...'
+echo -e ">> Running glxgears benchmark (60 seconds) ...\n\n"
 timeout --preserve-status 60 \
 	@PREFIX@/bin/glxgears
+echo -e "\n\n[o] The glxgears benchmark (60 seconds) has completed successfully."
 
-echo '正在启动下一个测试 ...'
-xterm -e /bin/bash -l -c "${_PREFIX}"/bench-scripts/ub-gfx-2d.bash
-
-read -p '当前测试已完成，按 [Enter] 键可退出'
+echo '>> Starting the next benchmark: UnixBench 2D Graphics ...'
+xterm -hold -e "@PREFIX@/bench-scripts/ub-gfx-2d.bash"
