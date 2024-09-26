@@ -82,7 +82,7 @@ cp -av "$_SRCDIR"/bench-scripts \
 	"$_PREFIX"/
 sed \
 	-e "s|@PREFIX@|${_PREFIX}|g" \
-	-i "$_PREFIX"/bench-scripts/*.bash
+	-i "$_PREFIX"/bench-scripts/*
 
 echo '正在启动 X11 测试会话 ...'
 xinit "$_PREFIX"/bench-scripts/xinitrc
