@@ -67,7 +67,7 @@ ninja install
 echo '正在安装 meson-demos ...'
 mkdir -pv "$_SRCDIR"/mesa-demos/build
 cd "$_SRCDIR"/mesa-demos/build
-meson "$_SRCDIR"/mesa-demos/build \
+meson "$_SRCDIR"/mesa-demos \
 	${_MESON_PREFIX[@]} \
 	${_MESA_DEMOS_OPTS[@]}
 ninja
