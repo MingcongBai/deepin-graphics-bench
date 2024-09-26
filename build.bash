@@ -30,15 +30,14 @@ _GLMARK2_OPTS=(
 )
 # mesa-demos 构建参数
 _MESA_DEMOS_OPTS=(
-	'-Dwith-glut=false'
-        '-Degl=enabled'
-        '-Dgles1=disabled'
+	'-Degl=enabled'
+	'-Dgles1=disabled'
 	'-Dgles2=disabled'
 	'-Dglut=disabled'
 	'-Dosmesa=disabled'
 	'-Dlibdrm=enabled'
 	'-Dx11=enabled'
-	'-Dvulkan=enabled'
+	'-Dvulkan=disabled'
 	'-Dwayland=disabled'
 	'-Dwith-system-data-files=false'
 )
