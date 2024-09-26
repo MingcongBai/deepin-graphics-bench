@@ -10,7 +10,8 @@ set -e
 _BUILD_DEPS=(
     'g++' 'build-essential' 'pkg-config' 'libx11-dev' 'libjpeg-dev'
     'libpng-dev' 'libgl1-mesa-dev' 'libudev-dev' 'libgbm-dev' 'libx11-dev'
-    'xinit' 'openbox' 'xterm' 'meson' 'ninja' 'libdrm-dev'
+    'xinit' 'openbox' 'xterm' 'meson' 'ninja-build' 'libdrm-dev' 'libxext-dev'
+    'libglu1-mesa-dev' 'x11-apps'
 )
 # 路径变量
 _SRCDIR="$PWD"
