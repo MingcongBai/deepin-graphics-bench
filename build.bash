@@ -15,14 +15,14 @@ _BUILD_DEPS=(
 )
 # 路径变量
 _SRCDIR="$PWD"
-_PREFIX='/usr/lib/graphics-bench-deepin'
+_PREFIX='/usr/lib/deepin-graphics-bench'
 #####
 # 构建参数
 #####
 #
 # 安装路径
 _MESON_PREFIX=(
-	'-Dprefix="${_PREFIX}"'
+	"--prefix=${_PREFIX}"
 )
 # glmark2 构建参数
 _GLMARK2_OPTS=(
