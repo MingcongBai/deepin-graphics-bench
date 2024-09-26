@@ -57,7 +57,7 @@ fi
 
 echo '正在安装 glmark2 ...'
 mkdir -pv "$_SRCDIR"/glmark2/build
-cd "_$SRCDIR"/glmark2/build
+cd "$_SRCDIR"/glmark2/build
 meson "$_SRCDIR"/glmark2 \
 	${_MESON_PREFIX[@]} \
 	${_GLMARK2_OPTS[@]}
