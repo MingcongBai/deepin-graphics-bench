@@ -1,4 +1,4 @@
-echo -e ">> Runnning glmark2 benchmark ...\n\n"
+echo ">> Runnning glmark2 benchmark ...\n\n"
 @PREFIX@/bin/glmark2 && \
 	echo -e "\n\n[o] The glmark2 benchmark has completed successfully.\n\n"
 
